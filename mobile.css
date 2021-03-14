@@ -1,0 +1,103 @@
+@media (max-width: 375px) {
+  html {
+    font-size: 15px;
+  }
+
+  .main-header {
+    background: url("./images/header.png") no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  #menuToggle {
+    width: 100px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    color: #fff;
+  }
+
+  .title span {
+    color: #8a3333;
+  }
+
+  .title p {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  /* ############################ About ##### */
+  .about-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about-main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .about-content {
+    width: 187.5px;
+    line-height: 15px;
+  }
+
+  .about-img img {
+    width: 170.5px;
+  }
+
+  .about-content h1 {
+    font-size: 1rem;
+    color: #444;
+    font-weight: normal;
+    padding-top: 5px;
+  }
+  .about-content p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  /* ################## Portfolio ############## */
+
+  .portfolio {
+    padding-left: 0px;
+    background: #555;
+  }
+  .portfolio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: #fff;
+  }
+
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-img img {
+    width: 170.5px;
+  }
+
+  .portfolio-img {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .portfolio-content h1 {
+    padding-right: 150px;
+  }
+}
